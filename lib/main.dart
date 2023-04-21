@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-
-import 'homepage.dart';
+import 'package:socket_client/background_page.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
@@ -16,7 +15,7 @@ class MyApp extends StatelessWidget {
       title: "Socket.IO",
       theme: ThemeData.light(),
       debugShowCheckedModeBanner: false,
-      home: const HomePage(),
+      home: const BackgroundPage(),
     );
   }
 }
